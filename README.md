@@ -41,3 +41,25 @@ till 3 eller hitta den varmaste dagen i prognosen.
 
 Prognosen kan ändras mellan körningar. Strecket `–` betyder att ett värde
 saknas. Datakälla: [Open-Meteo](https://open-meteo.com/).
+
+# Exempel
+
+```console
+$ python weather.py
+
+VÄDERPROGNOS FÖR MALMÖ
+Kommande 7 dagar • lokal tid: Europe/Stockholm
+
+Dag          Väder                          Min °C   Max °C  Regn/snö mm
+────────────────────────────────────────────────────────────────────────
+ons 11/11    Tätt duggregn                     6,8      8,1          1,1
+tor 12/11    Duggregn                          5,2      7,9          1,1
+fre 13/11    Lätt duggregn                     5,2      8,4          0,1
+lör 14/11    Lätt duggregn                     5,6      8,5          0,1
+sön 15/11    Lätt duggregn                     5,2      7,6          1,3
+mån 16/11    Duggregn                          6,9      9,4          9,3
+tis 17/11    Duggregn                          5,6      8,3          2,8
+
+Nederbörd anges som vattenmängd, även för snö.
+Källa: Open-Meteo • https://open-meteo.com/
+```
