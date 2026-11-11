@@ -4,6 +4,8 @@ Ett litet undervisningsexempel i Python som hämtar sju dagars väderprognos
 från [Open-Meteo](https://open-meteo.com/en/docs). Ingen API-nyckel behövs
 för detta icke-kommersiella exempel.
 
+> Skrivet av OpenAI Codex.
+
 ## Kör programmet
 
 Du behöver Python 3 och internetanslutning. Kör i projektmappen:
